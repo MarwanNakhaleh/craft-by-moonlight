@@ -1,8 +1,8 @@
 import { useState } from "react"
 import { ProductItem } from "../types/Product";
 import { findAllProducts, initMongoose } from "./api/products";
-import Item from "./components/Item";
-import Layout from "./components/layout/Layout";
+import Item from "../components/Item";
+import Layout from "../components/layout/Layout";
 
 type HomeProps = {
   products: ProductItem[];

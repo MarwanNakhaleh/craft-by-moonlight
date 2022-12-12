@@ -1,5 +1,5 @@
 import { useContext, useEffect } from "react";
-import { ProductItem } from "../../types/Product";
+import { ProductItem } from "../types/Product";
 import { ContextInfo, ProductsContext } from "./ProductContext";
 
 type ItemProps = {

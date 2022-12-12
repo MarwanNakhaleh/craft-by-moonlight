@@ -1,6 +1,6 @@
 import { createContext, Dispatch, SetStateAction } from "react";
 import useLocalStorageState from "use-local-storage-state";
-import { ProductItem } from "../../types/Product";
+import { ProductItem } from "../types/Product";
 
 export type ContextInfo = {
     selectedProducts: ProductItem[];

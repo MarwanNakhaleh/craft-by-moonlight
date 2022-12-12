@@ -1,7 +1,7 @@
 import { useContext, useState } from "react";
 import { ProductItem } from "../types/Product";
-import Layout from "./components/layout/Layout";
-import { ContextInfo, ProductsContext } from "./components/ProductContext";
+import Layout from "../components/layout/Layout";
+import { ContextInfo, ProductsContext } from "../components/ProductContext";
 
 export default function CheckoutPage() {
     const { selectedProducts, setSelectedProducts } = useContext(ProductsContext) as ContextInfo;
