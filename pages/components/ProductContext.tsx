@@ -20,3 +20,5 @@ export const ProductsContextProvider = ({ children }: React.PropsWithChildren<Co
         </ProductsContext.Provider>
     )
 }
+
+export default ProductsContext;

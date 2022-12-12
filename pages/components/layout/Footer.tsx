@@ -1,7 +1,7 @@
 import Link from "next/link"
 import { useRouter } from "next/router";
 import { useContext } from "react";
-import { ProductsContext } from "../ProductContext";
+import ProductsContext from "../ProductContext";
 
 export const Footer = () => {
     const router = useRouter();
@@ -25,3 +25,5 @@ export const Footer = () => {
         </footer>
     )
 }
+
+export default Footer;

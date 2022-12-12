@@ -1,6 +1,6 @@
 import { useContext, useEffect, useState } from "react";
-import { ContextInfo, ProductsContext } from "../ProductContext";
-import { Footer } from "./Footer";
+import ProductsContext, { ContextInfo } from "../ProductContext";
+import Footer from "./Footer";
 
 type LayoutProps = {};
 
@@ -29,3 +29,5 @@ export const Layout = ({ children }: React.PropsWithChildren<LayoutProps>) => {
         </>
     )
 }
+
+export default Layout;

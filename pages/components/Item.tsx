@@ -33,3 +33,5 @@ export const Item = ({ product }: ItemProps) => {
         </div>
     )
 }
+
+export default Item;
